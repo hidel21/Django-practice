@@ -1,0 +1,100 @@
+body{
+    background: #202020;
+    color: whitesmoke;
+}
+
+.navbar{
+    background: #404040;
+    padding: 5px 0;
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a:hover{
+    color: aqua;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.card{
+    background: whitesmoke;
+    color: black;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+/* Estilo para los inputs */
+.input {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;    /* espacio entre elementos del formulario */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para las textareas */
+.textarea {
+    width: 100%;            /* ocupar todo el ancho posible */
+    padding: 10px;
+    margin-bottom: 10px;    /* espacio entre elementos del formulario */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;       /* permite al usuario redimensionar solo verticalmente */
+}
+
+/* Añade estilos para los labels si lo deseas */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* Estilo base para botones */
+.btn {
+    background-color: #007BFF;      /* Color de fondo del botón */
+    color: white;                   /* Color de texto del botón */
+    padding: 10px 15px;             /* Espacio interno del botón */
+    border: none;                   /* No mostrar borde */
+    border-radius: 4px;             /* Bordes redondeados */
+    font-size: 16px;                /* Tamaño del texto */
+    cursor: pointer;                /* Cambiar el cursor al pasar el mouse por encima */
+    transition: background-color 0.3s;  /* Transición suave al cambiar el color de fondo */
+    text-decoration: none;          /* Eliminar el subrayado si es un enlace */
+    display: inline-block;          /* Permitir que se sitúe junto a otros elementos */
+}
+
+/* Estilo para el botón cuando el cursor pasa por encima */
+.btn:hover {
+    background-color: #0056b3;      /* Color de fondo más oscuro al pasar el mouse por encima */
+}
+
+/* Estilo para el botón cuando está activo (se ha hecho clic en él) */
+.btn:active {
+    background-color: #004085;      /* Color de fondo aún más oscuro al hacer clic */
+}
+
+/* Estilo para el botón cuando está deshabilitado */
+.btn:disabled {
+    background-color: #c6c6c6;      /* Color de fondo gris */
+    cursor: not-allowed;            /* Cambiar el cursor a "no permitido" */
+}
